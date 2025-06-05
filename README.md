@@ -22,13 +22,13 @@ In addition open RStudio and update to the latest version by clicking "Help" "Ch
 
 - [ ] 2. Click the little gear button near "About" on the top right side of the home page of the repo and check the "Use your Github Pages website" box under "Website". Click "Save changes". Test the link and you should see a web site with a stick figure on it. It may take a few minutes to build so if it's not working do a few more steps and then come back to check.
 
-### Copy the repo link (GitHub)
+### Clone the repo (Github Desktop)
 
-- [ ] 1. Click the green Code button, choose "HTTPS" and copy the link below. It should have the format: `https://github.com/[USERNAME]/[REPO NAME].git`
+- [ ] 1. Open Github Desktop, select File > Clone Repo, select the repo you want to clone from your Github and the location you want to save it to. 
 
-### Clone the repo (RStudio)
+### Open cloned repo in RStudio
 
-- [ ] 1. Clone your new repo with *File, New Project..., Version Control, Git* in RStudio. You will need to paste the link from the previous step in the Repository URL box. If it's not automatically populated, enter the repo name in the "Project directory name:" box. Choose the location of the project
+- [ ] 1. Go to File > Open Project and find the Cloned Repo in your filespace.
 
 ### Edit `_quarto.yml` (RStudio)
 
@@ -36,17 +36,13 @@ Tip: From the file pane in RStudio, open `README.md`, which contains these instr
 
 - [ ] 1. Edit the all caps info in  `_quarto.yml` to your info. It's very important to maintain the indenting structure in this file precisely as is -- be careful!
 
-### Render the web site (RStudio)
+### Render the web site (RStudio & Github desktop)
 
-- [ ] 1. If you haven't already, click "Help" "Check for Updates" to make sure you have the latest version of RStudio (and thus have Quarto installed.)
-
-- [ ] 2. Render the web site locally by clicking the "Build" tap on the right and then "Render Website".
+- [ ] 1. Render the web site locally by clicking the "Build" tap on the right and then "Render Website".
 
 - [ ] 3. Use `browseURL("docs/index.html")` to view your site locally (or just open `docs/index.html` in a browser).
 
-- [ ] 4. If it looks good, commit and push all changed files to GitHub. 
-
-(You will need to repeat steps 2 and 4 every time you wish to update the book online.)
+- [ ] 4. If it looks good, go to GitHub Desktop and push the commit. 
 
 ### Next steps
 
